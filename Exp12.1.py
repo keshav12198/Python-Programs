@@ -1,0 +1,13 @@
+from graphics import *
+win = GraphWin("A Car",300,300)
+pt = Point(100,50)
+cir = Circle(pt, 25)
+cir.setOutline('brown')
+cir.setFill('blue')
+rect = Rectangle(Point(75,125),Point(150,175))
+rect.setFill('green')
+rect.setOutline('blue')
+rect.setWidth(2)
+rect.draw(win)
+cir.draw(win)
+win.mainloop()
